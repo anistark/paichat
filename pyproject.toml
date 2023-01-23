@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "paichat"
+version = "0.1.0"
+description = "A Terminal experience"
+authors = ["Kumar Anirudha <mail@anirudha.dev>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+paichat = "paichat.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.6"
+typer = "^0.7.0"
+rich = "^13.2.0"
+click = "^8.1.3"
+shellingham = "^1.5.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
