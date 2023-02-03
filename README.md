@@ -1,4 +1,4 @@
-# paichat
+# Python Open AI Chat GPT CLI Client [Un-official]
 
 A Terminal Tool in Python
 
