@@ -1,4 +1,4 @@
-# Python Open AI Chat GPT CLI Client [Un-official]
+# Python Open AI CLI Client [Un-official]
 
 A Terminal Tool in Python
 
