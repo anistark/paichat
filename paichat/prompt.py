@@ -15,6 +15,6 @@ def start_chat():
     input_prompt = input(f"\n{Fore.LIGHTBLUE_EX}Me: {Style.RESET_ALL} ")
     # print("\n"+input_prompt)
     # Process input
-    gpt_image(input_prompt)
+    gpt_completion(input_prompt)
     # Unless exit
     start_chat()

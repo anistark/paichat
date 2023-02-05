@@ -18,7 +18,7 @@ def list_engines():
 
 def gpt_completion(prompt):
     # create a completion
-    completion = openai.Completion.create(engine="ada", prompt="Hello world")
+    completion = openai.Completion.create(engine="text-davinci-002", prompt="Hello world")
     # print the completion
     print("GPT:", completion.choices[0].text)
 
