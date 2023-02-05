@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "paichat"
-version = "1.0.1"
+version = "1.0.2"
 description = "A Terminal experience"
 authors = ["Kumar Anirudha <mail@anirudha.dev>"]
 license = "MIT"

@@ -1,5 +1,10 @@
 # Python Open AI CLI Client [Un-official]
 
+Published on pypi: https://pypi.org/project/paichat/
+![PyPI - Downloads](https://img.shields.io/pypi/dm/paichat?style=for-the-badge) ![PyPI](https://img.shields.io/pypi/v/paichat?style=for-the-badge) ![PyPI - Format](https://img.shields.io/pypi/format/paichat?style=for-the-badge)
+
+Supported ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/paichat?style=for-the-badge)
+
 A Terminal Tool in Python
 
 ## Prerequisites
@@ -27,6 +32,8 @@ A Terminal Tool in Python
 ```
 
 ## Contribute:
+
+![PyPI - License](https://img.shields.io/pypi/l/paichat?style=for-the-badge)
 
 ### Dev:
 
