@@ -6,6 +6,11 @@ A Terminal Tool in Python
 - `pipx`. If you don't have pipx installed, you can install like this:
   - `python3 -m pip install --user pipx`
   - `python3 -m pipx ensurepath`
+- You'll also need to have your own OpenAi apikey:
+  - Go to https://beta.openai.com/
+  - Select you profile menu and go to Manage API Keys
+  - Select + Create new secret key
+  - Copy generated key
 
 ## Install:
 `pipx install paichat`

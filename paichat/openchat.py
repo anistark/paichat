@@ -1,13 +1,8 @@
-import os
-from dotenv import load_dotenv
 import openai
 import webbrowser
 from colorama import init as colorama_init
 from colorama import Fore
-
-load_dotenv()
-
-openai.api_key = os.getenv('OPENAI_API_KEY')
+from .config import get_config
 
 def list_engines():
     # list engines
@@ -17,6 +12,7 @@ def list_engines():
     print(engines.data[0].id)
 
 def gpt_completion(prompt):
+    openai.api_key = get_config()['OPENAI_API_KEY']
     # create a completion
     completion = openai.Completion.create(engine="text-davinci-002", prompt="Hello world")
     # print the completion
